@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textDark {
+  @apply text-[#393939];
+}
+
+.textGold {
+  @apply text-[#D3AA65] border-[#D3AA65];
+
+}
+.textBlue {
+  @apply text-[#184CD3];
+}
+.bgBlue {
+  @apply bg-[#184CD3]
+}
+
+
+
+
+.makala {
+  @apply bg-[#FAFAFA] cursor-pointer font-semibold p-4 relative w-full aspect-video;
+}
+.makalalar {
+  @apply grid grid-cols-3  gap-3
+}
