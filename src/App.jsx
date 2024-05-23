@@ -1,17 +1,5 @@
 import { useState } from 'react'
-import { FaSearch } from "react-icons/fa";
-import { IoIosArrowForward } from "react-icons/io";
-import uzynburc from './assets/uzynburc.png'
-import gysgaburc from './assets/gysga8burc.png'
-import ucgelin from './assets/ucgelin.png'
-import gozel from './assets/gozel.png'
-import left from './assets/8burc.png'
-import right from './assets/8burc.png'
-import news from './assets/newscyz.png'
-import sekizburc from './assets/8burc.png'
-import makalacyz from './assets/makalacyz.png'
-import makalarect from './assets/makalarect.png'
-import Pyragy from './assets/Pyragy.jpg' 
+
 import Home from "./pages/Homepage"
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
