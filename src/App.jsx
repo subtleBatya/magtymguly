@@ -19,7 +19,7 @@ function App() {
       </div>
       <Routes>
           
-          <Route path="/" exact element={<Home />} />
+          <Route path="/magtymguly/" exact element={<Home />} />
           {/* <Route path="/doredijiligi" element={<Kitaphana />} />
           <Route path="/mumkincilik" element={<Mumkincilik />} />
           <Route path="/category" element={<Category />} />
