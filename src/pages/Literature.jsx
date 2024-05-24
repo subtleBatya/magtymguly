@@ -434,7 +434,7 @@ Magtymguly dagynyk ýaşan türkmen taýpalaryny birleşdirmek bilen ýurduň ö
 Magtymgulynyň watançylyk, gahrymançylyk temada ýazan eserleri taryhy taýdan anyklygy, takyk manysy, çeper obrazlara baýlygy bilen-de tapawutlanýar.
         </div>
 
-        <div className='container mt-20 pt-10 grid grid-cols-3 gap-3'>
+        <div className='container mt-20 pt-10 grid grid-cols-2 gap-3'>
             <NavLink to={`/magtymguly/`} className='bg-[#E3FFD9] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-[#477139] font-semibold aspect-video'>
                 <div className='w-1/2  text-[30px]'>
                   Bas Sahypa
@@ -447,15 +447,10 @@ Magtymgulynyň watançylyk, gahrymançylyk temada ýazan eserleri taryhy taýdan
                 300 Yyllygy 
                 </div>
             </NavLink>
-            <NavLink to={`/yadygarlikleri/`} className='bg-[#C6E3FF] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-[#406C97] font-semibold aspect-video'>
-                <div className='w-1/2  text-[30px]'>
-                {/* {t('library')} */}
-                Yadygarlikler
-                </div>
-            </NavLink>
+            
         </div>
       </div>
-      
+      <div className='mt-28'></div>
         
         
      </div>
@@ -485,7 +480,7 @@ Magtymgulynyň watançylyk, gahrymançylyk temada ýazan eserleri taryhy taýdan
 
       </div>
      </div> */}
-
+{/* 
       <div className="bgBlue mt-20">
         <div className="container py-10 text-white">
           <div className="flex">
@@ -549,6 +544,7 @@ Magtymgulynyň watançylyk, gahrymançylyk temada ýazan eserleri taryhy taýdan
 
         </div>
       </div>
+       */}
       </div>
     
   )

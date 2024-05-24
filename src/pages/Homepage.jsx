@@ -265,7 +265,7 @@ Magtymguly köp şygyrlaryny Pyragy lakamy bilen düzüpdir Onuň döredijiligi 
        
         
         
-        <div className='container mt-20 pt-10 grid grid-cols-3 gap-3'>
+        <div className='container mt-20 pt-10 grid grid-cols-2 gap-3'>
             <NavLink to={`/doredijiligi/`} className='bg-[#E3FFD9] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-[#477139] font-semibold aspect-video'>
                 <div className='w-1/2  text-[30px]'>
                   Doredijiligi
@@ -273,21 +273,19 @@ Magtymguly köp şygyrlaryny Pyragy lakamy bilen düzüpdir Onuň döredijiligi 
                 </div>
             </NavLink   >
             <NavLink to={`/yyly/`} className='bg-[#FFF4E1] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-goldColor font-semibold aspect-video'>
-                <div className='w-1/2  text-[30px]'>
+                <div className='w-1/2  text-[30px] gap-8'>
                 {/* {t('makala')} */}
-                300 Yyllygy Mynasybetli
+                300 Yyllygy 
+                <div className='mt-2'>
+                Mynasybetli
+                </div>
                 </div>
             </NavLink>
-            <NavLink to={`/yadygarlikleri/`} className='bg-[#C6E3FF] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-[#406C97] font-semibold aspect-video'>
-                <div className='w-1/2  text-[30px]'>
-                {/* {t('library')} */}
-                Yadygarlikleri
-                </div>
-            </NavLink>
+            
         </div>
       </div>
       
-        
+      <div className='mt-28'></div>
         
      </div>
       
@@ -316,7 +314,7 @@ Magtymguly köp şygyrlaryny Pyragy lakamy bilen düzüpdir Onuň döredijiligi 
 
       </div>
      </div> */}
-
+{/* 
       <div className="bgBlue mt-20">
         <div className="container py-10 text-white">
           <div className="flex">
@@ -380,6 +378,7 @@ Magtymguly köp şygyrlaryny Pyragy lakamy bilen düzüpdir Onuň döredijiligi 
 
         </div>
       </div>
+       */}
       </div>
     
   )
