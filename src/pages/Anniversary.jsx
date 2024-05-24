@@ -1,63 +1,28 @@
 import { useState } from 'react'
+// import { FaSearch } from "react-icons/fa";
+// import { IoIosArrowForward } from "react-icons/io";
+// import uzynburc from '../assets/uzynburc.png'
+// import gysgaburc from '../assets/gysga8burc.png'
+// import ucgelin from '../assets/ucgelin.png'
+// import gozel from '../assets/gozel.png'
+// import left from '../assets/8burc.png'
+// import right from '../assets/8burc.png'
+// import news from '../assets/newscyz.png'
+// import sekizburc from '../assets/8burc.png'
+// import makalacyz from '../assets/makalacyz.png'
+// import makalarect from '../assets/makalarect.png'
+import firstpic from '../assets/300y.jpg' 
+import secondpic from '../assets/300y1.jpg'
+import lastpic from '../assets/300y2.jpg'
+import { NavLink } from 'react-router-dom'
 
-import Home from "./pages/Homepage"
-import Literature from "./pages/Literature"
-import Anni from "./pages/Anniversary"
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
 function App() {
   const [show, setShow] = useState(false);
 
   return (
-    <>
-
-<div className="flex min-h-[100vh] flex-col">
-      
-
-      <div className="grow">
-      {/* <Home /> */}
-      <div>
-        
-      </div>
-      <Routes>
-          
-          <Route path="magtymguly/" exact element={<Home />} />
-          <Route path="/doredijiligi" element={<Literature />} />
-          <Route path="/yyly" element={<Anni />} />
-          {/* <Route path="/category" element={<Category />} />
-          <Route path="/vacancy" element={<Vacancy />} />
-          <Route path="/vacancy/about" element={<AboutVac />} />
-          <Route path="/makala" element={<NewsLetter />} />
-          <Route path="/search" element={<Search />} />   */}
-      </Routes>
-
-     
-
-
     
-
-      {/* <h1>
-       Our Translated Header: 
-       {t('headerTitle', { appName: "App for Translations" })}
-     </h1>
-     <h3>
-       Current Language: {currentLanguage}
-     </h3>
-     <button 
-        type="button" 
-        onClick={handleChangeLanguage}
-     >
-      Change Language
-     </button> */}
-      </div>
-    </div>
-     
-    </>
-    )
-  }
-      
-
-        
+      <div className='root'>
         {/* <div className='bg-blue-700  header_top relative text-white font-bold '>
         
         
@@ -114,7 +79,7 @@ function App() {
      
      
      </div> */}
-     
+     <div className="container">
             {/* <div className=' text-[#CFCFCF] gap-3 my-10 flex items-center'>
               <a href="https://subtleBatya.github.io/yashlar-homepg/">Bas sahypa</a>
               <IoIosArrowForward />
@@ -265,118 +230,85 @@ function App() {
         <div className="mt-24"></div> */}
 
         
-{/*       
-      <div className=' mt-8 w-2/8'>
-        <img className='justify-center  align-middle items-center mx-auto' src={Pyragy} />
-      </div>
+      
+      
       <div className="text-4xl text-center mx-auto font-bold mt-8 tracking-wide w-2/4">Magtymguly Pyragy <br /> 1724-1807(83 yaş)</div>
-      <div className='text-lg font-semibold space-y-4 mt-12 tracking-wide'>
-        <div className=' '>
-          Magtymgulynyň ömri we döredijiligi Türkmen halkynyň beýik şahyr ogly Magtymguly Pyragy gökleň türkmenlerindendir. Pyragy onuň edebi lakamydyr. Ol takmynan, 1724-nji ýylda Gürgen derýasynyň boýunda, Hajygowşan diýen ýerde eneden dogulýar. Ol ömrüniň​ köpüsini​ Etrek, Gürgen, Garrygala sebitlerinde geciripdir. Şahyr "Äleme belgilidir" diýen şygrynda Ýar geler, wagt-da gider, gaflata çykmyş gözlerim. Açaýyn diýsem açylmaz, ne agyr uýkulydyr; Bilmeýen soranlara aýdyň, bu garyb adymyz: Asly-gerkez, ýurdy-Etrek, ady-Magtymgulydyr diýip, öz adyny we niredendigini, kimlerdendigini aýdýar.Magtymgulynyň kakasy Döwletmämmet Azady, ejesi Orazgül bolupdyr.
-        </div>
-        <div className='text-lg font-semibold'>
-          Magtymguly başlangyç terbiýäni kakasy Döwletmämmet Azadydan alýar. Ol bu barada: "Ylym öwreden ussat-kyblam pederdir" - diýip ýazýar. Magtymguly ilki oba mekdebinde okaýar. Onuň ilkinji mugallymyna Nyýazsalyh diýer ekenler. Magtymguly örän zehinli we ýiti akylly bolupdyr. Ol dürli kitaplary çakdan- aşa köp we irginsiz okapdyr. Magtymguly ýaş wagty kakasyndan, ejesinden we obanyň garry adamlaryndan köp-köp halk rowaýatlary, goşgy-gazallary, erteki we nakyllary höwes bilen diňleýär eken. Ol kakasy Döwletmämmet Azadynyň döreden eserleriniň köpüsini ýatdan öwrenipdir.
-        </div>
-        <div>
-          Magtymgulynyň zehinliligine, okuwa höwesliligine göz ýetiren Döwletmämmet onuň ylymly adam bolup ýetişmeginiň aladasyny edipdir. XVIII asyrda Etrek, Ahal, Mary sebilerinde güýçli medreseler bolmandyr. Şonuň üçin Döwletmämmet Azady öz oglyny ilki Halajyň Gyzylaýak obasynda ýerlesýän, ol wagt güýcli hasap edilen Idris babanyň medresesine okuwa iberýär. Magtymguly bu medresede birnäçe wagt okaýar. Soňra ol Buhara gidýär, Buharada Gögeldaş atly medresä okuwa gidýär we onda iki ýyl okaýar. Şahyr hem medresede ders berýän şiraly türkmen Nury Kazym ibn Bahr bilen hem tanyşýar we onuň bilen dostlaşýar. Emma medresedäki talyplaryň tertip-düzgüniniň bozuklygy Magtymgulynyň bu medresäni taşlamagyna sebäp bolýar.
-        </div>
-        <div>
-          Magtymguly esasy bilimi Hywadaky «Sirgazy» medresesinde alýar. Ol «Sirgazy» medresesinde 3 ýyl okaýar. Medresede berilýän dersleriň daşynda hem Gündogaryň görnükli şahyrlary: Nyzamynyň, Nesiminiň, Fizulynyň, Nowaýynyň we başgalaryň eserlerini irginsiz okaýar. Ol medresede okaýanlaryň arasynda özuni derrew tanadyp, zehinli talyplaryň hataryna goşulýar. Okuwyň ilkinji ýylynda Magtymguly talyplaryň halypasy bolýar. Soňky ýylda bolsa, mugallym özi ýok wagty ders geçirmegi-de Magtymgula ynanýar ekeni. Emma kakasynyň ýarawsyzlanandygy üçin medresäni doly tamamlap bilmändir. Magtymguly öz döwrüniň iň bilimli we düşünjeli adamy bolup ýetişipdir. Magtymguly jahankeşde adam bolupdyr. Dünýäniň köp ýerlerine syýahat etmek duýgusy onda ýaşlykda döreýär. Bu syýahatlar şahyryň dünýägaraýşyny giňeldipdir. Magtymguly oglan okatmakdan başga tanymal zergär bolupdyr we kümüşden, altyndan dürli bezeg şaýlaryny ýasapdyr. Magtymgulynyň maşgala ýagdaýy jedelli meseleleriň biri bolup durýar. Goşgularyna esaslanyp, onuň Meňli diýen gyzy söýendigini, ýöne käbir sebäplere görä alyp bilmändigi hakda alymlar netijä gelýärler. Magtymgula Akgyz diýen ýeňňesi dakylýar.
-        </div>
-        <div>
-        Ondan iki ogul bolup, olar hem ýaşlykda ýogalýarlar. Şahyr ogullarynyň ölümine gynanyp, "Yzlamaýan bolarmy", "Mübtela kyldy“ eserleri döredipdir.
-
-Magtymguly örän parasatly, gepe çeper, märekesöýen adamdy. Ol özüniň gowy häsiýetleri bilen halka görelde görkezipdir, akyl-paýhasy bilen köp adamlary terbiýeläpdir.
-
-Magtymguly, takmynan, 1807-nji ýylda Atasary diýilýän çeşmäniň boýunda, Soňudagyň ýanynda aradan çykýar. Ony kakasynyň ýanynda "Garry molla" (Eýranda) gonamçylygynda jaýlapdyrlar.
-
-MAGTYMGULY(1724-1807)ýasap gecipdir
-        </div>
-        <div>
-        Magtymguly döredijilik işine ýaşka başlapdyr.Magtymguly goşgularyny köpçüligiň üýşen ýerinde, toý-meýlislerde okap berip, adamlary gahrymançylyga, ar-namysly, hüşgär bolmaklyga çagyrypdyr. Onuň ylham çeşmesi halk we onuň güzerany bolupdyr.
-
-Şahyryň döredijiligi dürli temalarda bolan köp sanly şygyrlardan we poemalardan ybaratdyr. Onuň öz golýazmalary bize gelip ýetmändir.
-
-Magtymguly köp şygyrlaryny Pyragy lakamy bilen düzüpdir Onuň döredijiligi XVIII asyr türkmen durmuşyny öwrenmäge örän köp material berýär. Magtymgulynyň şygyrlary, esasan, watançylyk, gahrymançylyk, öwüt-nesihat, sosial-deňsizlik, yşky-liriki, dostluk barada gumanistik ideýalary öňe sürýär.
-        </div>
-        <div>
-        <div className=' text-3xl text-gray-300 font-semibold'>
-          Su yerde Doredijiligi baslayar
-        </div>
-        <div>
-          <span className='text-2xl'>Magtymgulynyň döredijilik tematikasy</span>  <br />
-          Magtymgulynyň döredijilik tematikasy giň we hertaraply. Onda türkmen halkynyň geçmişi, geljegi we şol wagtky ýagdaýy göz öňüňe gelýär.
-        </div>
-        </div>
-        <div>
-        <span className=' text-2xl'>
-          Durmuşy goşgulary <br />
-        </span>
-Beýik akyldar Magtymgulynyň döredijiliginde durmuşy goşgular esasy orunlaryň birini eýeleýär, Ol çilim çekmek, nas atmak, ogurlyk, nähak gan dökmek ýaly pis häsiýetlere garşy göreş alyp barypdyr. Özüniň goşgularynda olary rehimsiz ýazgarypdyr. Şol göreşde çeper dili ýarag hökmünde ulanypdyr. <br />
-
-Şahyr "Nas atan" şygrynda nas atanyň hapasyzçylygyny görkezip, ony masgaralaýar we şu kärini taşlamaga çagyrýar: <br />
-
- <span className=' font-bold'>
-    Akar durar üsti-başyň poh eder, <br />
-    Senden gaçar deňi-duşuň, nas atan! <br />
- </span> 
-
-Şahyr özüniň eserlerinde gybatkeşligi, töhmeti iň bir ýaramaz häsiýet hökmünde ýazgarýar: <br />
-
- <span className=' font-bold'>
-    Ömrüň ýele berme, azma ýoluňdan,<br />
-    Agyrtmagyl ili-günüň, gybatkeş.<br />
- </span> 
-Magtymguly ýaman häsiýetleri ýazgarmak bilen erbetlikleri dini düşünjeleriň üsti bilen tertibe salmaga synanyşypdyr.<br />
-
-Şahyr gelin-gyzlaryň edepli, päkize, mylaýym bolmagyny isläpdir, ata-enäni sylamaýan, hapysa gelin-gyzlary pisläpdir.<br />
-
-<span className=' font-bold'>
-    Gozel , sirke basar saçyny,<br />
-    Artmaz-ýuwmaz tabagynyň, daşyny,<br />
-    Sylamaz atasyn, ene ýaşyny<br />
-    Onyň hyzmatyndan gaçasyň geler.<br />
- </span> 
-
-
-
-Magtymguly ýaramaz häsiýetlere garşy göreşmek temasyny edebiýatda giň möçberde işläp we propagandirlän şahyrdyr.
-        </div>
-        <div>
-        <span className=' text-2xl'>
-        Öwut-nesihat häsiýetli goşgulary. Meyilnama <br />
-        </span>
-       
-Şahyryň döredijiliginde adamlarda oňat häsiýetleri terbiýelemekde uly orny owüt-nesihat häsiýetli şygyrlar tutýar. Bu temadan Magtymguly "Janyna degmez", "Durasyň geler", "Ýör biläni", "Il ýagşy", "Zor bolar", "Bolar"", "Aýrylma" ýaly onlarça şygyr ýazypdyr. Şahyr bu goşgularynda döwürdeşlerine asylly terbiýe bermek, olaryň mert, ar-namysly bolmaklaryny nesihat edip, binamys, namartlary ýaňsa alypdyr. Şahyr "Gerekdir" diýen şygrynda:
-<br />
-Giň ýerde garga deý bolsun wehimli,<br />
-Ýerinde hünäri işi gerekdir<br />
-
-diýip, ýigidiň göwrüminiň giň, gerekli ýerinde hünäriniň bolmaly-dygyny, hüşgärligini beýan edipdir.
-<br />
-Magtymgulynyň "Il biläni" şygrynyň:<br />
-
-Goç ýigide toýdur-baýram,<br />
-Her iş gelse, il biläni<br />
-
-setirleri agzybirligi ündäpdir, Şahyr "Janyna degmez" goşgusynda hesiýeti boýunça gapma-garşy adamy suratlandyrýar.
-<br />
-Adam bar müň tümen iýdirseň azdyr,<br />
-Bardyr adam - iýen nanyna degmez.<br />
-
-Şahyr oňat hesiýetleri ündände, ýaramaz häsiýetleri ýazgaranda, wagyz-nesihat etmek tärinden peýdalanýar. Ol ähli türkmen ýigitlerini jeň meýdanynda şu sypatda görmek isleýär:
-<br />
-At salanda doňuz kimin topulyp,<br />
-Aýy kimin asylyşy gerekdir.<br />
-
-Magtymguly oňat-gylyk häsiýetler adamyň bezegi diýip düşünipdir.
-        </div>
-       
-      </div>
-       */}
+      <div className='text-xl font-semibold space-y-4 mt-12 tracking-wide'>
         
+        <div className=' text-3xl gap-3 py-3'>
+        Magtymguly Pyragynyň doglan gününiň <br /> 300 ýyllygy mynasybetli dabaralar geçirilýär
+        
+        </div>
+        <div className=' m-auto w-3/4'>
+          <img src={firstpic} alt="" />
+        </div>
+
+        <div>
+        20-nji maýda ABŞ-nyň Milli poçta muzeýinde Magtymguly Pyragynyň doglan gününiň 300 ýyllygyna bagyşlanyp, Türkmenistanyň ilçihanasy we «Türkmenistan – ABŞ» işewürlik geňeşi tarapyndan bilelikde çykarylan poçta markasynyň tanyşdyrylyş dabarasy geçirildi. 
+<br />
+Waşington şäherinde ýerleşýän muzeýde guralan dabara türkmen tarapyndan ÝUNESKO-nyň işleri barada Türkmenistanyň milli toparynyň jogapkär sekretary, ýurdumyzyň ylym, bilim, medeniýet edaralarynyň işgärleri, ýurdumyzyň ABŞ-daky ilçihanasynyň wekilleri gatnaşdylar. 
+        </div>
+        <div className=' m-auto w-3/4'>
+          <img src={secondpic} alt="" />
+        </div>
        
-     
+        <div>
+        Şeýle hem çärä «Türkmenistan – ABŞ» işewürlik geňeşiniň we ABŞ-nyň Milli poçta muzeýiniň ýerine ýetiriji direktorlary, Döwlet departamentiniň we ýurduň beýleki edaralarynyň, meşhur amerikan kompaniýalarynyň wekilleri, alymlar gatnaşdylar. 
+<br />
+<div className="mt-3"></div>
+Tanyşdyrylyş dabarasyna gatnaşyjylar halkymyzyň baý medeniýeti, geçmişi we şu güni barada gürrüň berýän sergi bilen tanyşmaga mümkinçilik aldylar. Sergide Türkmenistanyň Ylymlar akademiýasynyň Magtymguly adyndaky Dil, edebiýat we milli golýazmalar institutynyň gaznasynda saklanylýan Magtymguly Pyragynyň golýazmalarynyň nusgalary, Döwlet medeniýet merkeziniň Döwlet muzeýiniň gaznasynyň gymmatlyklary, Döwlet çeperçilik akademiýasynyň sungat eserleri görkezildi. 
+        </div>
+
+        <div className=' m-auto w-3/4'>
+          <img src={lastpic} alt="" />
+        </div>
+
+        <div>
+        <div className="mt-3"></div>
+        Beýik türkmen şahyrynyň şanly senesini dabaralandyrmak maksady bilen, guralan çärede çykyş edenleriň biragyzdan belleýşi ýaly, Magtymguly Pyragy bütin adamzadyň medeni mirasynyň genji-hazynasyna uly goşant goşan türkmen edebiýatynyň görnükli wekilidir. Magtymguly Pyragynyň doglan gününiň 300 ýyllygyna bagyşlanyp çykarylan poçta markasy we şu mynasybetli guralýan dabara türkmen-amerikan medeni gatnaşyklarynyň taryhynda möhüm waka bolup, ol beýik türkmen şahyrynyň döredijiligini diňe bir ABŞ-da däl, eýsem, halkara derejede wagyz etmekde hem möhüm ähmiýete eýedir. 
+<br />
+<div className="mt-3"></div>
+Poçta markasy taýýarlanylanda Magtymguly Pyragynyň meşhur türkmen suratkeşi Aýhan Hajyýew tarapyndan döredilen kanoniki keşbi ulanylypdyr. Ol ýadygärlik sowgat hökmünde, şeýle hem elektron görnüşde ulanmak üçin ABŞ-da ýaýradylar. Şeýle hem poçta markasynyň nusgalary muzeý gymmatlygy hökmünde ABŞ-nyň Milli poçta muzeýiniň gaznasynda saklanar we bu ýere gelýänlere görkeziler. 
+<br />
+<div className="mt-3"></div>
+Muzeýiň Ýerine ýetiriji direktory Elliot Gruberiň bellemegine görä, beýik türkmen şahyrynyň hormatyna döredilen poçta markasy Türkmenistanyň poçta hyzmatynyň taryhy barada gürrüň berýän gymmatlyklaryň üstüni ýetirer. Bellenilişi ýaly, bu muzeý poçta hyzmatlarynyň taryhyna ýöriteleşen iň gadymy we dünýädäki iň iri muzeýdir. Bu ýerdäki gymmatlyklaryň üsti bilen ABŞ-nyň 300 ýyla golaý uzaýan poçta hyzmatlarynyň taryhy, şeýle hem dünýäniň 50-den gowrak ýurdunyň poçta markalary bilen tanyşmak bolýar. 
+<br />
+<div className="mt-3"></div>
+Muzeýiň direktorynyň belleýşi ýaly, poçta markasy diňe bir poçta hyzmatlarynda ulanylýan serişde bolman, ol her bir halkyň durmuşy, medeniýeti barada gürrüň berýän gymmatlyga eýedir. Hatly bukja berkidilýän poçta markasy dünýäniň islendik ýerine hatly habarnama bilen birlikde, her bir adamda gyzyklanma döredip biler. 
+      <br />
+        </div>
+        
+
+        {/* SOSIAL DENSIZLIK */}
+        
+        {/* WATANCYLYK TEMASY */}
+        
+
+        <div className='container mt-20 pt-10 grid grid-cols-3 gap-3'>
+            <NavLink to={`/magtymguly/`} className='bg-[#E3FFD9] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-[#477139] font-semibold aspect-video'>
+                <div className='w-1/2  text-[30px]'>
+                  Bas Sahypa
+                    {/* {t('youthPolicy')} */}
+                </div>
+            </NavLink   >
+            <NavLink to={`/doredijiligi/`} className='bg-[#FFF4E1] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-goldColor font-semibold aspect-video'>
+                <div className='w-1/2 text-yellow-600 text-[30px]'>
+                {/* {t('makala')} */}
+                Doredijiligi 
+                </div>
+            </NavLink>
+            <NavLink to={`/yadygarlikleri/`} className='bg-[#C6E3FF] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-[#406C97] font-semibold aspect-video'>
+                <div className='w-1/2  text-[30px]'>
+                {/* {t('library')} */}
+                Yadygarlikler
+                </div>
+            </NavLink>
+        </div>
+      </div>
+      
+        
+        
+     </div>
       
      {/* <div className="w-full">
       <div className="w-[60vw] mx-auto text-[#CDCDCD]">
@@ -403,7 +335,7 @@ Magtymguly oňat-gylyk häsiýetler adamyň bezegi diýip düşünipdir.
 
       </div>
      </div> */}
-{/* 
+
       <div className="bgBlue mt-20">
         <div className="container py-10 text-white">
           <div className="flex">
@@ -468,7 +400,8 @@ Magtymguly oňat-gylyk häsiýetler adamyň bezegi diýip düşünipdir.
         </div>
       </div>
       </div>
-     */}
-  
+    
+  )
+}
 
 export default App

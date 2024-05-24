@@ -233,7 +233,7 @@ function App() {
         <img className='justify-center  align-middle items-center mx-auto' src={Pyragy} />
       </div>
       <div className="text-4xl text-center mx-auto font-bold mt-8 tracking-wide w-2/4">Magtymguly Pyragy <br /> 1724-1807(83 yaş)</div>
-      <div className='text-lg font-semibold space-y-4 mt-12 tracking-wide'>
+      <div className='text-xl font-semibold space-y-4 mt-12 tracking-wide'>
         <div className=' '>
           Magtymgulynyň ömri we döredijiligi Türkmen halkynyň beýik şahyr ogly Magtymguly Pyragy gökleň türkmenlerindendir. Pyragy onuň edebi lakamydyr. Ol takmynan, 1724-nji ýylda Gürgen derýasynyň boýunda, Hajygowşan diýen ýerde eneden dogulýar. Ol ömrüniň​ köpüsini​ Etrek, Gürgen, Garrygala sebitlerinde geciripdir. Şahyr "Äleme belgilidir" diýen şygrynda Ýar geler, wagt-da gider, gaflata çykmyş gözlerim. Açaýyn diýsem açylmaz, ne agyr uýkulydyr; Bilmeýen soranlara aýdyň, bu garyb adymyz: Asly-gerkez, ýurdy-Etrek, ady-Magtymgulydyr diýip, öz adyny we niredendigini, kimlerdendigini aýdýar.Magtymgulynyň kakasy Döwletmämmet Azady, ejesi Orazgül bolupdyr.
         </div>
@@ -262,78 +262,9 @@ MAGTYMGULY(1724-1807)ýasap gecipdir
 
 Magtymguly köp şygyrlaryny Pyragy lakamy bilen düzüpdir Onuň döredijiligi XVIII asyr türkmen durmuşyny öwrenmäge örän köp material berýär. Magtymgulynyň şygyrlary, esasan, watançylyk, gahrymançylyk, öwüt-nesihat, sosial-deňsizlik, yşky-liriki, dostluk barada gumanistik ideýalary öňe sürýär.
         </div>
-        <div>
-        <div className=' text-3xl text-gray-300 font-semibold'>
-          Su yerde Doredijiligi baslayar
-        </div>
-        <div>
-          <span className='text-2xl'>Magtymgulynyň döredijilik tematikasy</span>  <br />
-          Magtymgulynyň döredijilik tematikasy giň we hertaraply. Onda türkmen halkynyň geçmişi, geljegi we şol wagtky ýagdaýy göz öňüňe gelýär.
-        </div>
-        </div>
-        <div>
-        <span className=' text-2xl'>
-          Durmuşy goşgulary <br />
-        </span>
-Beýik akyldar Magtymgulynyň döredijiliginde durmuşy goşgular esasy orunlaryň birini eýeleýär, Ol çilim çekmek, nas atmak, ogurlyk, nähak gan dökmek ýaly pis häsiýetlere garşy göreş alyp barypdyr. Özüniň goşgularynda olary rehimsiz ýazgarypdyr. Şol göreşde çeper dili ýarag hökmünde ulanypdyr. <br />
-
-Şahyr "Nas atan" şygrynda nas atanyň hapasyzçylygyny görkezip, ony masgaralaýar we şu kärini taşlamaga çagyrýar: <br />
-
- <span className=' font-bold'>
-    Akar durar üsti-başyň poh eder, <br />
-    Senden gaçar deňi-duşuň, nas atan! <br />
- </span> 
-
-Şahyr özüniň eserlerinde gybatkeşligi, töhmeti iň bir ýaramaz häsiýet hökmünde ýazgarýar: <br />
-
- <span className=' font-bold'>
-    Ömrüň ýele berme, azma ýoluňdan,<br />
-    Agyrtmagyl ili-günüň, gybatkeş.<br />
- </span> 
-Magtymguly ýaman häsiýetleri ýazgarmak bilen erbetlikleri dini düşünjeleriň üsti bilen tertibe salmaga synanyşypdyr.<br />
-
-Şahyr gelin-gyzlaryň edepli, päkize, mylaýym bolmagyny isläpdir, ata-enäni sylamaýan, hapysa gelin-gyzlary pisläpdir.<br />
-
-<span className=' font-bold'>
-    Gozel , sirke basar saçyny,<br />
-    Artmaz-ýuwmaz tabagynyň, daşyny,<br />
-    Sylamaz atasyn, ene ýaşyny<br />
-    Onyň hyzmatyndan gaçasyň geler.<br />
- </span> 
-
-
-
-Magtymguly ýaramaz häsiýetlere garşy göreşmek temasyny edebiýatda giň möçberde işläp we propagandirlän şahyrdyr.
-        </div>
-        <div>
-        <span className=' text-2xl'>
-        Öwut-nesihat häsiýetli goşgulary. Meyilnama <br />
-        </span>
        
-Şahyryň döredijiliginde adamlarda oňat häsiýetleri terbiýelemekde uly orny owüt-nesihat häsiýetli şygyrlar tutýar. Bu temadan Magtymguly "Janyna degmez", "Durasyň geler", "Ýör biläni", "Il ýagşy", "Zor bolar", "Bolar"", "Aýrylma" ýaly onlarça şygyr ýazypdyr. Şahyr bu goşgularynda döwürdeşlerine asylly terbiýe bermek, olaryň mert, ar-namysly bolmaklaryny nesihat edip, binamys, namartlary ýaňsa alypdyr. Şahyr "Gerekdir" diýen şygrynda:
-<br />
-Giň ýerde garga deý bolsun wehimli,<br />
-Ýerinde hünäri işi gerekdir<br />
-
-diýip, ýigidiň göwrüminiň giň, gerekli ýerinde hünäriniň bolmaly-dygyny, hüşgärligini beýan edipdir.
-<br />
-Magtymgulynyň "Il biläni" şygrynyň:<br />
-
-Goç ýigide toýdur-baýram,<br />
-Her iş gelse, il biläni<br />
-
-setirleri agzybirligi ündäpdir, Şahyr "Janyna degmez" goşgusynda hesiýeti boýunça gapma-garşy adamy suratlandyrýar.
-<br />
-Adam bar müň tümen iýdirseň azdyr,<br />
-Bardyr adam - iýen nanyna degmez.<br />
-
-Şahyr oňat hesiýetleri ündände, ýaramaz häsiýetleri ýazgaranda, wagyz-nesihat etmek tärinden peýdalanýar. Ol ähli türkmen ýigitlerini jeň meýdanynda şu sypatda görmek isleýär:
-<br />
-At salanda doňuz kimin topulyp,<br />
-Aýy kimin asylyşy gerekdir.<br />
-
-Magtymguly oňat-gylyk häsiýetler adamyň bezegi diýip düşünipdir.
-        </div>
+        
+        
         <div className='container mt-20 pt-10 grid grid-cols-3 gap-3'>
             <NavLink to={`/doredijiligi/`} className='bg-[#E3FFD9] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-[#477139] font-semibold aspect-video'>
                 <div className='w-1/2  text-[30px]'>
@@ -350,7 +281,7 @@ Magtymguly oňat-gylyk häsiýetler adamyň bezegi diýip düşünipdir.
             <NavLink to={`/yadygarlikleri/`} className='bg-[#C6E3FF] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-[#406C97] font-semibold aspect-video'>
                 <div className='w-1/2  text-[30px]'>
                 {/* {t('library')} */}
-                ...
+                Yadygarlikleri
                 </div>
             </NavLink>
         </div>
