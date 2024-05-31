@@ -13,7 +13,7 @@ import { useState } from 'react'
 // import makalarect from '../assets/makalarect.png'
 
 import { NavLink } from 'react-router-dom'
-
+import { FaPenFancy } from "react-icons/fa";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -429,11 +429,14 @@ Magtymguly dagynyk ýaşan türkmen taýpalaryny birleşdirmek bilen ýurduň ö
   Teke, ýomut, gökleň, ýazyr, ärsary<br />
   Bir dowlete gulluk etsek bäşimiz.<br />
 </span>
-<div className="mt-3"></div>
+<div className="mt-3 position: relative"></div>
 
 Magtymgulynyň watançylyk, gahrymançylyk temada ýazan eserleri taryhy taýdan anyklygy, takyk manysy, çeper obrazlara baýlygy bilen-de tapawutlanýar.
         </div>
-
+        <div className='position: absolute right-8'>
+          <FaPenFancy />
+        </div>
+        
         <div className='container mt-20 pt-10 grid grid-cols-2 gap-3'>
             <NavLink to={`/magtymguly/`} className='bg-[#E3FFD9] cursor-pointer w-full aspect-[7/5] flex items-end p-5 text-[#477139] font-semibold aspect-video'>
                 <div className='w-1/2  text-[30px]'>
