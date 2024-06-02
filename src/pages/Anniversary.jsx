@@ -331,7 +331,7 @@ Muzeýiň direktorynyň belleýşi ýaly, poçta markasy diňe bir poçta hyzmat
 
       </div>
      </div> */}
-{/* 
+
       <div className="bgBlue mt-20">
         <div className="container py-10 text-white">
           <div className="flex">
@@ -394,7 +394,7 @@ Muzeýiň direktorynyň belleýşi ýaly, poçta markasy diňe bir poçta hyzmat
           </div>
 
         </div>
-      </div> */}
+      </div> 
       </div>
     
   )

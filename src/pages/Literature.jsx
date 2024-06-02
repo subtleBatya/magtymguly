@@ -483,7 +483,7 @@ Magtymgulynyň watançylyk, gahrymançylyk temada ýazan eserleri taryhy taýdan
 
       </div>
      </div> */}
-{/* 
+
       <div className="bgBlue mt-20">
         <div className="container py-10 text-white">
           <div className="flex">
@@ -547,7 +547,7 @@ Magtymgulynyň watançylyk, gahrymançylyk temada ýazan eserleri taryhy taýdan
 
         </div>
       </div>
-       */}
+      
       </div>
     
   )
