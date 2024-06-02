@@ -314,7 +314,7 @@ Magtymguly köp şygyrlaryny Pyragy lakamy bilen düzüpdir Onuň döredijiligi 
 
       </div>
      </div> */}
-{/* 
+
       <div className="bgBlue mt-20">
         <div className="container py-10 text-white">
           <div className="flex">
@@ -378,7 +378,7 @@ Magtymguly köp şygyrlaryny Pyragy lakamy bilen düzüpdir Onuň döredijiligi 
 
         </div>
       </div>
-       */}
+       
       </div>
     
   )
